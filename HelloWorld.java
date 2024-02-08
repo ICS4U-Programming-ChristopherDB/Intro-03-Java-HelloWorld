@@ -1,7 +1,5 @@
 package com.example;
 
-import java.util.*;
-
 public class HelloWorld {
 
   public static void main(final String[] args) {
