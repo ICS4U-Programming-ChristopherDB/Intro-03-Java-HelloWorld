@@ -26,7 +26,7 @@ jobs:
 
      - name: Run GitHub Super Linter
 
-       uses: git@github.com:Krostofer/super-linter-java-fixes.git
+       uses: Krostofer/super-linter-java-fixes
 
        env:
 
