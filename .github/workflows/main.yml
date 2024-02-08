@@ -1,12 +1,10 @@
-##################################################
+###############################################
 
-# Run Mr Coxall's Super Linter against code base #
+# Run GitHub's Super Linter against code base #
 
-##################################################
+###############################################
 
----
-
-name: Mr Coxall's Super Linter
+name: GitHub's Super Linter
 
 on: [push, pull_request]
 
@@ -14,7 +12,7 @@ jobs:
 
  run-linters:
 
-   name: Mr Coxall's Super Linter
+   name: GitHub's Super Linter
 
    runs-on: ubuntu-latest
 
@@ -22,27 +20,21 @@ jobs:
 
      - name: Check out Git repository
 
-       uses: actions/checkout@main
+       uses: actions/checkout@master
+
+      
 
      - name: Run GitHub Super Linter
 
-       uses: Krostofer/super-linter-java-fixes
+       uses: git@github.com:Krostofer/super-linter-java-fixes.git
 
        env:
 
          VALIDATE_ALL_CODEBASE: true
 
-         LINTER_RULES_PATH: /
-
-         VALIDATE_CLANG_FORMAT: false
-
          VALIDATE_JAVASCRIPT_STANDARD: false
 
-         VALIDATE_PYTHON_FLAKE8: false
-
-         VALIDATE_GITLEAKS: false # for secrets detection
-
-         VALIDATE_JSCPD: false # for copy and paste detection
+         VALIDATE_CLANG_FORMAT: false
 
          DEFAULT_BRANCH: main
 
