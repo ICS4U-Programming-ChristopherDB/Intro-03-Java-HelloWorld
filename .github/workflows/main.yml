@@ -21,8 +21,10 @@ jobs:
    steps:
 
      - name: Check out Git repository
-
-       uses: actions/checkout@main
+       uses: actions/checkout@v2
+       with:
+         repository: github/super-linter-java-fixes # test
+         ref: main # or whatever branch you want to use
 
      - name: Run GitHub Super Linter
        uses: github/super-linter@main
