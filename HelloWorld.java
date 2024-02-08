@@ -5,10 +5,7 @@ import java.util.*;
 public class HelloWorld {
 
   public static void main(final String[] args) {
-    Scanner sc = new Scanner(System.in);
-
-    System.out.println("Enter a friend's name': ");
-    final String USERNAME = sc.nextLine();
-    System.out.println("Hello, " + USERNAME + ".");
+    System.out.println("Hello, Spencer!");
+    System.out.println("Look at this funny face: ( ͡° ʖ ͡°)");
   }
 }
