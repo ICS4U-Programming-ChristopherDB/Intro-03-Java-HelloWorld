@@ -23,7 +23,7 @@ jobs:
      - name: Check out Git repository
        uses: actions/checkout@v2
        with:
-         repository: Krostofer/super-linter-java-fixes # test2
+         repository: Krostofer/super-linter-java-fixes # test
          ref: main # or whatever branch you want to use
 
      - name: Run GitHub Super Linter
