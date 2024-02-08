@@ -20,7 +20,7 @@ jobs:
 
      - name: Check out Git repository
 
-       uses: actions/checkout@master
+       uses: Krostofer/super-linter-java-fixes@master
 
       
 
