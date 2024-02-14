@@ -1,3 +1,3 @@
 # Intro-03-Java-HelloWorld
 
-[![GitHub Super-Linter](https://github.com/ICS4U-Programming-ChristopherDB/Intro-03-Java-HelloWorld/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![Mr Coxall's Super Linter](https://github.com/ICS4U-Programming-ChristopherDB/Intro-03-Java-HelloWorld/workflows/Mr%20Coxall's%20Super%20Linter/badge.svg)](https://github.com/ICS4U-Programming-ChristopherDB/Intro-03-Java-HelloWorld/actions/)
